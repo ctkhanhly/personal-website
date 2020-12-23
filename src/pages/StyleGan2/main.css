@@ -39,11 +39,12 @@
 
 
 .background{
+  text-align: center;
   min-height: 100vh;
   background: -webkit-linear-gradient(to bottom, #C9D6FF 0%, #E2E2E2 100%);
   background-color:  #C9D6FF;
   
-  background: url('assets/imgs/background8.gif');
+  background: url('../../assets/imgs/background8.gif');
   /* background: url('assets/imgs/background5.png'); */
 }
 
@@ -51,18 +52,18 @@
   padding: 0;
   /* margin-top:-30px; */
   top:0;
-  background: url('assets/imgs/background7.png');
+  background: url('../../assets/imgs/background7.png');
   background-size: cover;
   min-height: 50vh;
   width: 100vw;
   color: white;
-  /* text-align:center; */
+  text-align:center;
   /* font-size: 50px; */
 }
 
 .card{
   min-width: 275;
-  max-width: 65vw;
+  max-width: 60vw;
   min-height: 40vh;
   margin:  auto;
   /* padding-left: 5vw;
